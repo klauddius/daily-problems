@@ -11,7 +11,7 @@ Project created to solve algorithm challenges presented in software engineering 
 
 ## Technologies 
 Project is created using these technologies:
-* Java 8+
+* Java 11
 * Maven
 
 ## List of Challenges
