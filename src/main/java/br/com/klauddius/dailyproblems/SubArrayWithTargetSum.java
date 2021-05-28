@@ -47,12 +47,4 @@ public class SubArrayWithTargetSum {
         }
         return subArrayResult;
     }
-
-    public static void main(String[] args) throws Exception {
-        SubArrayWithTargetSum s = new SubArrayWithTargetSum();
-
-        int[] testArray = {1, 3, 2, 5, 7, 2};
-        s.findContinuousK(testArray, 14);
-    }
-
 }
