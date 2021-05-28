@@ -23,29 +23,29 @@ public class SubArrayWithTargetSum {
      * @return subarray with all items which sums to k
      */
     public ArrayList<Integer> findContinuousK(int[] array, int k) throws Exception {
-        ArrayList<Integer> result = new ArrayList<>();
+        ArrayList<Integer> subArrayResult = new ArrayList<>();
         int sum;
-        boolean subarrayFound = false;
+        boolean isSubarrayFound = false;
         for (int i = 0; i < array.length; i++) {
-            result.clear();
+            subArrayResult.clear();
             sum = array[i];
-            result.add(array[i]);
+            subArrayResult.add(array[i]);
             for (int j = i + 1; j < array.length; j++) {
                 sum += array[j];
-                result.add(array[j]);
+                subArrayResult.add(array[j]);
                 if (sum >= k) {
                     break;
                 }
             }
             if (sum == k) {
-                subarrayFound = true;
+                isSubarrayFound = true;
                 break;
             }
         }
-        if (!subarrayFound) {
+        if (!isSubarrayFound) {
             throw new Exception("Subarray Not Found");
         }
-        return result;
+        return subArrayResult;
     }
 
     public static void main(String[] args) throws Exception {
