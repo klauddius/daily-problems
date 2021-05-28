@@ -8,7 +8,7 @@ import java.util.List;
 
 public class SubArrayWithTargetSumTest {
 
-    SubArrayWithTargetSum sawts = new SubArrayWithTargetSum();
+    private final SubArrayWithTargetSum sawts = new SubArrayWithTargetSum();
 
     @Test
     public void testFoundKInTheMiddleOfArray() throws Exception {
@@ -63,8 +63,7 @@ public class SubArrayWithTargetSumTest {
         int[] array = new int[]{1, 2, 3};
         int k = 12;
 
-        Integer[] expecteds = {};
-        List<Integer> result = sawts.findContinuousK(array, k);
+        sawts.findContinuousK(array, k);
     }
 
 }

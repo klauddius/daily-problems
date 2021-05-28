@@ -10,7 +10,7 @@
 Project created to solve algorithm challenges presented in software engineering interviews.
 
 ##Technologies 
-Project is created using this technologies:
+Project is created using these technologies:
 * Java 8+
 * Maven
 
