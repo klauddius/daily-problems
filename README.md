@@ -4,7 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [List of Challenges](#list-of-challenges)
-  1. [SubArrayWithTargetSum](#1-subarraywithtargetsumhttpsgithubcomklauddiusdaily-problemsblobmastersrcmainjavabrcomklauddiusdailyproblemssubarraywithtargetsumjava)
+  1. [SubArrayWithTargetSum](#1-subarraywithtargetsum)
 
 ## General Info
 Project created to solve algorithm challenges presented in software engineering interviews.
